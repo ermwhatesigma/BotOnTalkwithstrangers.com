@@ -98,11 +98,11 @@ def skip_chat(driver):
     print("skipping chat...")
     try:
         btn = driver.find_element(By.ID, "chatStartStopButton")
-        
-        btn.click()
-        time.sleep(1.0) 
-        btn.click()
-        print("chat skipped, looking for new partner...")
+        driver.execute_script("arguments[0].click();", btn)
+        time.sleep(1.5) 
+        btn = driver.find_element(By.ID, "chatStartStopButton")
+        driver.execute_script("arguments[0].click();", btn)
+        print("chat skipped")
         return True
     except Exception as e:
         print(f"failed to skip chat {e}")
