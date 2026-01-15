@@ -7,6 +7,10 @@ The model I use --> https://ollama.com/library/dolphin-mistral
 
 But of course you can select your own ollama models or other things you prefer. But for me dolphin-mistral works fine.
 
+**Demo, not perfect**
+![Demo of the bot](display/chat.gif)
+
+
 Download the model
 ```bash
 ollama pull dolphin-mistral
