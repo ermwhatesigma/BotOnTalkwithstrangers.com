@@ -1,5 +1,5 @@
 # BotOnTalkwithstrangers.com
-This is an script i made for fun. It uses an AI model from ollama dolphin-mistral. https://ollama.com/library/dolphin-mistral  What it does it opens an undetected chrome window and from there it reads talks with strangers. You can change the ai prompt how you like it.
+This is an script i made for fun. It uses an AI model from ollama, dolphin-mistral. https://ollama.com/library/dolphin-mistral  What it does it opens an undetected_chromedriver window and from there it reads and talks with strangers. You can change the ai prompt how you like it. When it opens the windows make sure too decline or accept the cookies. So the bot will be able to read and talk.
 
 You need ollama for it to run Download ollama --> https://ollama.com/download
 
@@ -10,7 +10,7 @@ But of course you can select your own ollama models or other things you prefer. 
 Download the model
 ```bash
 ollama pull dolphin-mistral
-#or you can run the model so you can test if it works with = ollama run dolphin-mistral
+# or you can run the model so you can test if it works with = ollama run dolphin-mistral
 # of course you can choose any ollama model
 ```
 
@@ -36,8 +36,7 @@ cd BotOnTalkwithstrangers.com
 pip install -r requirements.txt #if you didn't install the packages already
 # or just use the command directly --> pip install undetected-chromedriver selenium ollama
 python ai2-18.py
-#or
-python3 ai-18.py
+#or python3 ai-18.py
 #Make sure ollama is already running in background with
 ollama serve
 ```
@@ -49,8 +48,11 @@ git clone https://github.com/ermwhatesigma/BotOnTalkwithstrangers.com
 pip install undetected-chromedriver selenium ollama
 cd BotOnTalkwithstrangers.com
 python ai2-18.py
-#or
-python3 ai-18.py
+#or python3 ai-18.py
 #Make sure ollama is already running in background with
 ollama serve
 ```
+
+**Chat logs appear in terminal and won't be cleared**
+
+Note: I know there are some spam errors when a person skips or the bot skips, I will try to fix that as soon as possible.
