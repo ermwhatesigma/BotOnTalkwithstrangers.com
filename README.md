@@ -1,7 +1,10 @@
 # BotOnTalkwithstrangers.com
 This is an script i made for fun. It uses an AI model from ollama dolphin-mistral. https://ollama.com/library/dolphin-mistral  What it does it opens an undetected chrome window and from there it reads talks with strangers. You can change the ai prompt how you like it.
+
 You need ollama for it to run Download ollama --> https://ollama.com/download
-I use --> https://ollama.com/library/dolphin-mistral
+
+The model I use --> https://ollama.com/library/dolphin-mistral
+
 But of course you can select your own ollama models or other things you prefer. But for me dolphin-mistral works fine.
 
 Download the model
