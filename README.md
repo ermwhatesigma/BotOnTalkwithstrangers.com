@@ -55,4 +55,4 @@ ollama serve
 
 **Chat logs appear in terminal and won't be cleared**
 
-Note: I know there are some spam errors when a person skips or the bot skips, I will try to fix that as soon as possible.
+Note: Fixed the spam errors.
