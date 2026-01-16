@@ -12,7 +12,7 @@ But of course you can select your own ollama models or other things you prefer. 
 ![Demo of the bot](display/chat.gif)
 
 
-Download the model
+# Download the model dolphin-mistral
 ```bash
 ollama pull dolphin-mistral
 # or you can run the model so you can test if it works with = ollama run dolphin-mistral
