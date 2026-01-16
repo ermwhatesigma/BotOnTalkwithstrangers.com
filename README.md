@@ -24,15 +24,17 @@ After you downloaded ollama and the model you will need to have ollama run in th
 ollama serve
 ```
 
-You need to have all the library installed
+
+# How to run it
+First you need to have all the libraries installed
 ```bash
 pip install undetected-chromedriver selenium ollama
 ```
 
 This are all the libraries you need for the code to work.
-I did have to filter the bot to 18 but of course you are free to edit everything you need or wan't to edit.
+I did have to filter the bot to 18 but of course you are free to edit everything you need or want to edit.
 
-# How to run it
+
 **Windows**
 ```bash
 git clone https://github.com/ermwhatesigma/BotOnTalkwithstrangers.com
