@@ -54,8 +54,8 @@ git clone https://github.com/ermwhatesigma/BotOnTalkwithstrangers.com
 #or you can dowload and then unzip the file
 pip install undetected-chromedriver selenium ollama
 cd BotOnTalkwithstrangers.com
-python ai2-18.py
-#or python3 ai-18.py
+python Ai2-18.py
+#or python3 Ai-18.py
 #Make sure ollama is already running in background with
 ollama serve
 ```
